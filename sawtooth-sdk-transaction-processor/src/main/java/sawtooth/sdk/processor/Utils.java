@@ -15,6 +15,7 @@
 package sawtooth.sdk.processor;
 
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import javax.xml.bind.DatatypeConverter;
@@ -63,7 +64,7 @@ public final class Utils {
    * @return a UTF-8 representation of the byte array
    */
   public static String stringByteArrayToString(final byte[] fromCbor) {
-    return new String(fromCbor, Charset.forName("UTF-8"));
+    return new String(fromCbor, StandardCharsets.UTF_8);
   }
 
 

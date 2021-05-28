@@ -8,7 +8,7 @@
 
 ```xml
     <dependency>
-        <groupId>org.hyperledger.sawtooth</group>
+        <groupId>org.hyperledger.sawtooth</groupId>
         <artifactId>sawtooth-sdk-transaction-processor</artifactId>
         <version>v0.1.2</version>
     </dependency>

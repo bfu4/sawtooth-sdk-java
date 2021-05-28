@@ -14,11 +14,11 @@
 
 package sawtooth.sdk.messaging;
 
+import sawtooth.sdk.protobuf.Message;
+
 import java.util.concurrent.TimeoutException;
 
 import com.google.protobuf.ByteString;
-
-import sawtooth.sdk.protobuf.Message;
 
 /**
  * The client networking class.
